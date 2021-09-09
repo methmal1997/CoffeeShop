@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(rgba(87, 82, 100, 0.7),rgba(48, 16, 16, 0.4)),url("./image/cov2.jpg");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+
+}
+.clear{
+    clear: both;
+}
+.logo{
+    color: #fff;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    float: left;
+    padding-left: 20px;
+}
+
+
+
+.container1{
+    background-color: rgb(46, 39, 39);
+    width: 100%;
+}
+
+
+#nav-bar{
+    margin-top: auto;
+    float: right;
+}
+.ui-menu{
+    list-style: none;
+    padding: 20px 20px;
+}
+
+#nav-bar li{
+    display: inline;
+    padding: 2px 15px;
+    cursor: pointer;
+    color: lavenderblush;
+    font-size: 20px;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+.header-title-1{
+    color: #f2ac32;
+    font-size: 60px;
+    font-family: 'Sacramento', cursive;
+    margin-top: 170px;
+    margin-bottom: 25px;
+}
+.header-title-2{
+    color: #fff;
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.header-cta-button {
+    color: white;
+    background-color: #F2AC32;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+body{
+    color: rgb(39, 36, 33);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+/*        boxese ************* */
+
+#s2{
+    position: relative;
+}
+.d-section{
+    background-color: #f0efef;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.food-border{
+    border: 2px solid #F2AC32;
+    position: relative;
+    background-color: #F2AC32;
+    box-shadow: 14px 14px 9px 9px rgba(173, 135, 100, 0.54);
+}
+.food-overlay{
+    position:absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #fff;
+    padding: 100px 10px 0px 10px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 14px 14px 9px 9px rgba(141, 84, 31, 0.54);
+
+}
+.food-item{
+    height: 400px;
+    width: 270px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.food-item p{
+    color: rgb(236, 231, 231);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.food-item a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #F2AC32;
+    font-family: 'Oswald', sans-serif;
+}
+.f0{
+    background:linear-gradient(rgba(94, 92, 100, 0.7),rgba(48, 16, 16, 0.4)),url(./image/d1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.food-1{
+    background:linear-gradient(rgba(94, 92, 100, 0.7),rgba(48, 16, 16, 0.4)),url(./image/d2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.food-2{
+    background:linear-gradient(rgba(94, 92, 100, 0.7),rgba(48, 16, 16, 0.4)),url(./image/d3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discover-h1{
+    font-family: 'Rochester', cursive;
+    color: #d4d2cd;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.discover-h2{
+    font-family: 'Oswald', sans-serif;
+    color: #dbc99b;
+    font-size: 30px;
+    letter-spacing:2px ;
+    margin-bottom: 15px;
+}
+/* *********************** end Section ************************** */
+
+/* *********************** start spec ************************** */
+
+.specialities-section{
+    background: linear-gradient(rgba(73, 59, 59, 0.85),rgba(59, 54, 54, 0.85)), url("./image/d4.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: right;
+    position: relative;
+    z-index: 2;
+}
+.specialities-middle{
+    text-align: center;
+    position: relative;
+}
+.specialities-h1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.specialities-h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    letter-spacing:2px ;
+    margin-bottom: 100px;
+    color: white;
+}
+
+
+
+
+
+
+.specialities-middle:before{
+    content: '';
+    position: absolute;
+    border-top: 100px solid #f0efef;
+    border-right: 100vw solid transparent;
+    top: -100px;
+    left: 0;
+}
+.specialities-middle:after{
+    content: '';
+    position: absolute;
+    border-bottom: 100px solid #f0efef;
+    border-left: 100vw solid transparent;
+    bottom: -150px;
+    right: 0;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+/* *********************** end spec ************************** */
+
+
+.our-menu-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0.65)), url(../images/pancake-1.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 150px 50px;
+}
+.our-menu-h1{
+    font-family: 'Rochester', cursive;
+    color: #f2ac32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.our-menu-h2{
+    color: white;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.food-container{
+    color: white;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.our-menu-row{
+    display: flex;
+    justify-content: center;
+}
+.our-menu-col{
+    width: 335px;
+    margin: 30px;
+    font-family: 'Oswald', sans-serif;
+     text-align: center;
+    position: relative;
+}
+.food-title{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.food-price{
+    font-size: 20px;
+    color: #f2ac32;
+}
+.food-ingradients{
+    font-weight: 100;
+    font-size: 14px;
+}
+.our-menu-button{
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    justify-content: center;
+    position: relative;
+
+}
+.our-menu-button:hover{
+    background-color: rgba(255, 252, 252, 0.7);
+    color: black;
+    padding: 10px 20px;
+}
+
+
+.container2{
+    margin-top: 100px;
+    justify-content: center;
+    position: relative;
+}
+.box-a{
+    background-color: rgb(109, 73, 143);
+    color: rgb(214, 202, 202);
+    margin: auto;
+    line-height: 1.6em;
+   
+}
+/* end************************************* */
+
+/*  last start **************************** 8 */
+
+.booking-table-section{
+    padding: 100px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.booking-table-h1{
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.booking-table-h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    letter-spacing:2px ;
+    margin-bottom: 100px;
+    color: black;
+}
+.booking-table-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.booking-div{
+    background-color: white;
+    margin: 30px 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.booking-icon{
+    padding: 15px 20px;
+    display: inline-block;
+    border-right: 2px solid #f0f0f0;
+}
+.booking-date{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+/*********************** Start Footer Section **************************/
+
+footer{
+    padding: 60px 0;
+    padding-bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0.65)), url(../images/footer.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #f0efef;
+}
+.footer-row{
+    display: flex;
+    justify-content: center;
+ 
+}
+.footer-col{
+    margin: 30px 60px;
+}
+.footer-title{
+    font-family: 'Oswald', sans-serif;
+    color: #f2ac32;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-text{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.footer-email{
+    padding: 10px 22px;
+    width: 230px;
+    height: 45px;
+    margin-bottom: 15px;
+}
+.footer-subscribe{
+    display: inline-block;
+    width: 230px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    background-color: #f2ac32;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+.copyright{
+    padding: 40px;
+    color: #f0f0f0;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    border-top: 1px solid rgba(216, 216, 216, 0.418);
+}
+.copyright-name{
+    color: #f2ac32;
+}
+
+/*********************** End Footer Section **************************/
+
